@@ -1,6 +1,6 @@
 # GoMart - E-commerce Application
 
-GoMart is a comprehensive e-commerce application built using Spring Boot on the backend and React.js on the frontend. The application features user authentication, product management, cart operations, and order processing. It also includes an admin dashboard for managing products and categories, with integrated image storage using Cloudinary.
+GoMart is a comprehensive e-commerce application built using Spring Boot on the backend and React.js on the frontend. The application features user authentication, category management, product management, cart operations, and order processing. It also includes an POS dashboard for managing products and categories, with integrated image storage using Cloudinary.
 
 # Key Features:
 
@@ -24,37 +24,7 @@ GoMart is a comprehensive e-commerce application built using Spring Boot on the 
 - React.js
 - Axios (for API calls)
 - React Router
-- Redux (optional, for state management)
-- Tailwind CSS / Bootstrap (for styling)
-
-# Project Structure
-# BackEnd
-src/
-|-- main/
-|   |-- java/
-|   |   |-- com/
-|   |       |-- Software/
-|   |           |-- GoMart/
-|   |               |-- Controllers/  # REST controllers
-|   |               |-- Entities/     # JPA entities
-|   |               |-- Repositories/ # JPA repositories
-|   |               |-- Services/     # Service layer
-|   |               |-- GoMartApplication.java
-|   |-- resources/
-|       |-- application.properties    # Application configuration
-|       |-- static/images/            # Image storage
-|-- test/
-
-
-# FrontEnd
-src/
-|-- components/   # Reusable components
-|-- pages/        # Pages for routing
-|-- services/     # API calls with Axios
-|-- App.js        # Main App component
-|-- index.js      # Entry point
-|-- styles/       # Styling files
-
+- Bootstrap (for styling)
 
 # Database Schema
 The project uses the following database schema:
@@ -71,7 +41,7 @@ The project uses the following database schema:
 # User API
  1) POST /GoMart/user/loggedin - Authenticate a user
 
-- Category API
+# Category API
   1) GET   /GoMart/category - Get all categories
   2) Post  /GoMart/category/addCategory - Add Category
   3) PUT   /GoMart/category/updateCategory/{categoryId) - Update category
