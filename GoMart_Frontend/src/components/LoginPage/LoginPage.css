@@ -1,0 +1,304 @@
+/* LoginPage.css */
+/*
+:root {
+  --primary-color: #57b849;
+  --secondary-color: #616362;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2020/05/21/18/52/supermarket-5202138_1280.jpg"); 
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  animation: slide-up 1s ease-out forwards;
+  transform: translateY(20px); 
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.h2 {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.remember-me .MuiCheckbox-root {
+  padding: 0;
+  margin-right: 10px;
+}
+
+.remember-me label {
+  color: #333;
+}
+
+.toggle-switch {
+  width: 40px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 10px;
+  margin-left: auto;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-knob {
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+
+.toggle-knob.active {
+  left: 21px;
+  background: var(--primary-color);
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+footer {
+  margin-top: 1rem;
+  color: #888;
+}
+
+footer .brand-name {
+  color: #007bff;
+}
+
+.hed1 {
+  color: var(--primary-color);
+}
+
+.hed2 {
+  color: var(--secondary-color);
+}
+.lgnBtn {
+  background-color: var(--primary-color);
+}
+*/
+
+/* LoginPage.css */
+
+:root {
+  --primary-color: #57b849;
+  --secondary-color: #616362;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2020/05/21/18/52/supermarket-5202138_1280.jpg"); /* If you want a background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  animation: slide-up 1s ease-out forwards;
+  transform: translateY(20px); /* Start position of the animation */
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.h2 {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.remember-me .MuiCheckbox-root {
+  padding: 0;
+  margin-right: 10px;
+}
+
+.remember-me label {
+  color: #333;
+}
+
+.toggle-switch {
+  width: 40px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 10px;
+  margin-left: auto;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-knob {
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+
+.toggle-knob.active {
+  left: 21px;
+  background: var(--primary-color);
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+footer {
+  margin-top: 1rem;
+  color: #888;
+}
+
+footer .brand-name {
+  color: #007bff;
+}
+
+.hed1 {
+  color: var(--primary-color);
+}
+
+.hed2 {
+  color: var(--secondary-color);
+}
+.lgnBtn {
+  background-color: var(--primary-color);
+}

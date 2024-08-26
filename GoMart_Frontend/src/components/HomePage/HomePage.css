@@ -1,0 +1,146 @@
+/* HomePage.css */
+/*
+.categories {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.billing-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  height: 550px;
+}
+
+.invoice-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.close-invoice {
+  position: absolute;
+  top: 170px;
+  right: 450px;
+  background-color: rgb(163, 159, 159);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.categories {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.billing-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  height: 550px;
+}
+
+/* HomePage.css */
+
+.categories {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.billing-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  height: 690px;
+}
+
+.invoice-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.close-invoice {
+  position: absolute;
+  top: 170px;
+  right: 450px;
+  background-color: rgb(163, 159, 159);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Discount Input and Payment Type Select */
+.discount-input {
+  width: 100px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.discount-input:focus {
+  border-color: #57b849;
+  outline: none;
+}
+
+.payment-type-select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 100px;
+}
+
+.payment-type-select:focus {
+  border-color: #57b849;
+  outline: none;
+}
+
+/* Example classes for applying percentage values */
+.discount-5 {
+  background-color: #e7f5e4;
+}
+
+.discount-10 {
+  background-color: #d0f0d1;
+}
+
+.discount-15 {
+  background-color: #bde9be;
+}
+
+button .close {
+  position: left;
+}
+
+.header {
+  width: 660px;
+}
+.order-btn {
+  background-color: #57b849;
+  border-color: #57b849;
+  margin-left: 100px;
+}
+
+.order-btn:hover {
+  background-color: #4a9d41;
+  border-color: #4a9d41;
+}

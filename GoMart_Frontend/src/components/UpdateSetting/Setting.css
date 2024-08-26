@@ -1,0 +1,113 @@
+/* Setting.css */
+/*.setting-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  border: 2px solid var(--secondary-color);
+  align-items: center;
+}
+
+h2 {
+  color: #57b849;
+}
+
+.setting-form .MuiFormControl-root {
+  margin-bottom: 16px;
+}
+
+.setting-form .MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.setting-form .MuiButton-root {
+  background-color: #57b849;
+  color: white;
+}
+
+.setting-form .MuiButton-root:hover {
+  background-color: #4a9b3d;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.action-buttons .MuiIconButton-root {
+  color: var(--primary-color);
+}
+
+.action-buttons .MuiIconButton-root:hover {
+  color: var(--secondary-color);
+}
+.button-group {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: space-between;
+}*/
+
+/* Setting.css */
+.setting-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  border: 2px solid var(--secondary-color);
+  align-items: center;
+}
+
+h2 {
+  color: #57b849;
+}
+
+.setting-form .MuiFormControl-root {
+  margin-bottom: 16px;
+}
+
+.setting-form .MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.setting-form .MuiButton-root {
+  background-color: #57b849;
+  color: white;
+}
+
+.setting-form .MuiButton-root:hover {
+  background-color: #4a9b3d;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.action-buttons .MuiIconButton-root {
+  color: var(--primary-color);
+}
+
+.action-buttons .MuiIconButton-root:hover {
+  color: var(--secondary-color);
+}
+.button-group {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: space-between;
+}

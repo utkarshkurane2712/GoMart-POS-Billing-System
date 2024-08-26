@@ -1,0 +1,109 @@
+.category-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.category-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-category-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar,
+.category-dropdown {
+  flex: 1;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ffffff;
+}
+
+.search-icon {
+  color: var(--secondary-color);
+  margin-right: 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+  color: var(--secondary-color);
+}
+
+.category-dropdown {
+  padding: 9px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: var(--secondary-color);
+}
+
+.category-dropdown option {
+  color: var(--secondary-color);
+}
+
+.category-dropdown:hover {
+  border-color: var(--primary-color);
+  outline-color: var(--primary-color);
+}
+
+.items-container {
+  max-height: 570px; /* height of the product list in homepage */
+  overflow-y: auto;
+  padding-bottom: 25px;
+}
+
+/* Scrollbar Styles for WebKit Browsers (Chrome, Safari) */
+.items-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+@media (min-width: 992px) {
+  .items-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.item-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-card img {
+  /* max-width: 100%; */
+  border-radius: 8px;
+}
+
+.item-details {
+  margin-top: 10px;
+}
+
+.item-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

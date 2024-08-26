@@ -1,0 +1,18 @@
+.update-setting {
+  padding: 20px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.update-setting h2 {
+  margin-bottom: 20px;
+}
+
+.MuiTableCell-root {
+  text-align: center;
+}
+
+.MuiIconButton-root {
+  margin: 0 5px;
+}
+

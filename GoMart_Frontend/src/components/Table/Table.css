@@ -1,0 +1,30 @@
+.table-container {
+  margin-top: 20px;
+}
+
+.user-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.user-details-table th,
+.user-details-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-details-table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.user-details-table td {
+  background-color: white;
+}
+
+.user-details-table .MuiIconButton-root {
+  color: var(--secondary-color);
+}

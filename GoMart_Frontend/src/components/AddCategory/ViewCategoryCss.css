@@ -1,0 +1,105 @@
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.searchbar input {
+  width: 200px;
+  height: 35px;
+  margin-top: 5px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.553);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.searchbar {
+  margin: 20px;
+  float: right;
+}
+
+.searchbar label {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.searchbar input:hover {
+  outline: 2px solid black;
+}
+
+.category-form {
+  padding: 20px;
+}
+
+.star {
+  color: red;
+  margin-left: 2px;
+}
+
+.category-form .btn {
+  background-color: green;
+}
+
+.category-form .frminpt {
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  border: 2px solid rgba(0, 0, 0, 0.399);
+}
+
+.category-form .frminpt:hover {
+  border: 2px solid rgb(29, 27, 27);
+  outline: 1px solid rgb(255, 255, 255);
+}
+
+/* Change pagination color to success (Bootstrap green) */
+.pagination .page-item .page-link {
+  color: #28a745; /* Text color */
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #28a745; /* Background color for active page */
+  border-color: #28a745;
+  color: white; /* Border color for active page */
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #28a745; /* Background color on hover */
+  border-color: #28a745; /* Border color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.pagination .page-item .page-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25); /* Outline color when focused */
+}
+
+.catImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catImg img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional Styles for Table Scrolling */
+.table-container {
+  max-height: 350px; /* Adjust height as needed */
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 20px 0; /* Adjust margin for spacing */
+}
+
+.table {
+  margin-bottom: 0; /* Remove bottom margin from table */
+  width: 100%;
+  table-layout: fixed;
+}
